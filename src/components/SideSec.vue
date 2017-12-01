@@ -14,12 +14,12 @@
                 <icon name="score" scale="3"></icon><span>{{ userInfo.score }}</span>
             </p>
             <p>
-                <icon name="github" scale="3"></icon><span>https://github.com/{{ userInfo.githubUsername }}</span> 
+                <icon name="github" scale="3"></icon><span>https://github.com/{{ userInfo.githubUsername }}</span>
             </p>
         </div>
     </transition>
 
-    
+
 </template>
 
 <script>
@@ -33,7 +33,7 @@ export default {
                 loginname: 'temp'
             },
             name: ''
-            
+
         }
     },
     watch:{
@@ -63,7 +63,7 @@ export default {
     },
     methods:{
         ToggleSide:function(){
-         
+
             this.$store.commit('increment')
         }
     }

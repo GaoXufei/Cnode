@@ -48,12 +48,14 @@
   width:100%;
   color:#333;
   font-size:.36rem;
+  font-weight:700;
 }
 .profile>div.recentReolies>div{
   display: flex;
   align-items:center;
   flex-direction: row;
-  margin-top:.2rem;
+  padding:.2rem 0;
+  border-bottom:.02rem dashed #ccc;
 }
 .profile>div.recentReolies>div img{
   width:.8rem;
@@ -61,6 +63,7 @@
 }
 .profile>div.recentReolies>div a{
   color:#333;
+  text-decoration:none;
 }
 
 .profile>div.recentTopics{
@@ -72,12 +75,14 @@
   width:100%;
   color:#333;
   font-size:.36rem;
+  font-weight:700;
 }
 .profile>div.recentTopics>div{
   display: flex;
   align-items:center;
   flex-direction: row;
-  margin-top:.2rem;
+  padding:.2rem 0;
+  border-bottom:.02rem dashed #ccc;
 }
 .profile>div.recentTopics>div img{
   width:.8rem;
