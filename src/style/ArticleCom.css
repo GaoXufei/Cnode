@@ -1,0 +1,81 @@
+@import url('../assets/github.css');
+.secDiv{
+    width:95%;
+    margin:.2rem auto;
+}
+.secDiv .articleMessage{
+    width:100%;
+
+}
+.secDiv .articleMessage h2{
+
+}
+.secDiv .articleMessage p{
+    margin:.2rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.secDiv .articleMessage p>span{
+    color:#999;
+}
+.secDiv .articleMessage p>span a{
+    color:#aaa;
+    text-decoration: none;
+}
+.secDiv .articleMessage p>span i{
+    color:#666;
+    font-style:normal;
+}
+
+/* 留言板 */
+.reply{
+  border-top:.02rem dashed #ccc;
+  flex-direction:column;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  margin-top:.4rem;
+}
+.reply img{
+  width:.8rem;
+}
+.replySec{
+  display:flex;
+  padding:.2rem 0;
+  width:100%;
+  border-bottom:.02rem solid #ccc;
+}
+.replySec>div{
+  display:flex;
+  width:100%;
+  flex-direction:column;
+  align-items:flex-start;
+  margin-left:.2rem;
+  justify-content:space-around;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.replySec>div .replyUp{
+  width:100%;
+}
+.replySec>div .replyUp{
+  font-size:.28rem;
+}
+.replySec>div .replyUp .replyUserName{
+  color:rgb(0, 162, 255);
+}
+.replySec>div .replyUp .thumbs{
+  float: right;
+}
+.replySec>div .replyUp .thumbs span{
+  color:#999;
+}
+.replySec>div>p{
+  margin-top:.1rem;
+  line-height:2;
+  width:100%;
+}
+.replySec>div>p a{
+  color:#666;
+}

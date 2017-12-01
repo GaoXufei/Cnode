@@ -1,0 +1,43 @@
+.secDiv{
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    margin:.2rem auto 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.secDiv>div{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding:.2rem 0;
+    border-bottom:.02rem dashed #ccc;
+}
+.secDiv>div>a{
+    display: block;
+    width:15%;
+}
+.secDiv>div>a img{
+    width:100%;
+    border-radius:50%;
+}
+.secDiv>div .textDiv{
+    width:85%;
+    padding:0 .2rem;
+    box-sizing: border-box;
+}
+.secDiv>div .textDiv>a{
+    color:#333;
+    display: block;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size:.28rem;
+}
+.secDiv>div .textDiv .stuff{
+    margin-top:.1rem;
+}
+.secDiv>div .textDiv .stuff span:first-child{
+    margin-right:.2rem;
+}
