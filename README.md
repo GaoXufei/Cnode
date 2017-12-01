@@ -2,7 +2,7 @@
 
 > Vue.js project
 
-###技术栈
+### 技术栈
 ```
   Vue-cli
   Cnode API
