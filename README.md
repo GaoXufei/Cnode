@@ -26,6 +26,9 @@ npm run dev
 # 进行打包
  
 npm run build
+
+# ps
+如预览时请开启浏览器“响应式设计”模式
  
 ```
 
