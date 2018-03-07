@@ -1,15 +1,17 @@
 # Cnode
 
-> Vue.js project
+> 基于Cnode社区Api Vue开发的社区客户端
 
-### 技术栈
-```
-  Vue-cli
-  Cnode API
-  axios
-  element-ui
-  vuex
-```
+> 技术栈
+
+  * Vue-cli
+  * Cnode API
+  * axios
+  * element-ui
+  * vuex
+  * vue-svg-icon
+  * ...
+
 ### 安装方法
 
 ```
@@ -27,6 +29,5 @@ npm run build
  
 ```
 
-### 预览地址
-[https://gaoxufei.github.io/Cnode/dist/index.html#/](https://gaoxufei.github.io/Cnode/dist/index.html#/)
+
 
