@@ -1,4 +1,4 @@
-# Cnode
+# Cnode(移动端)
 
 > 基于Cnode社区Api Vue开发的社区客户端
 
